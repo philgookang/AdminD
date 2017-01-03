@@ -1,0 +1,31 @@
+.head {
+	background-color: #f26d21;
+	color: #fff;
+}
+.head .logo {
+	height: 80px;
+	line-height: 80px;
+}
+.head .quick-menu {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 12px;
+}
+.head .quick-menu a {
+	color: #fff;
+	box-sizing: border-box;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.head .quick-menu a:last-child {
+	padding-right: 0px;
+}
+.body {
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.foot {
+
+}

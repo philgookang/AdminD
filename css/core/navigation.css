@@ -1,0 +1,42 @@
+.navigation {
+	font-size: 0px;
+	position: relative;
+    z-index: 1;
+}
+.navigation > ul {
+	list-style: none;
+}
+.navigation > ul > li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.navigation > ul > li > ul {
+	display: none;
+	position: absolute;
+	top: 41px;
+	left: -21px;
+	font-size: 0px;
+	background-color: #f26d21;
+}
+.navigation > ul > li:hover > ul {
+	display: block;
+}
+.navigation > ul > li > ul > li {
+	display: block;
+}
+.navigation > ul > li > a {
+	min-width: 120px;
+	padding: 16px 20px 12px 0px;
+}
+.navigation > ul > li > a,
+.navigation > ul > li > ul > li > a {
+	display: block;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 14px;
+	color: #fff;
+}
+.navigation > ul > li > ul > li > a {
+	padding: 14px 20px;
+}

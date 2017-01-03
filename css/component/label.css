@@ -1,0 +1,22 @@
+.label {
+    display: inline;
+    padding: 2px 4px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 3px;
+	font-size: 11px;
+}
+.label-primary {
+	background-color: #5c90d2;
+}
+.label-success {
+	background-color: #46c37b;
+}
+.label-danger {
+    background-color: #d26a5c;
+}
+.label-default {
+    background-color: #e3e8ee;
+    color: #333;
+}
