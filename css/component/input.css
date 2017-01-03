@@ -7,6 +7,10 @@
     font-size: 14px;
     background-color: #fff;
 }
+.input-date {
+    width: 95px;
+    text-align: center;
+}
 .input-inline {
 
 }
