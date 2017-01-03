@@ -19,7 +19,7 @@
     margin: -3px 0 -3px 15px;
     padding: 0;
     height: 24px;
-    list-style: none; 
+    list-style: none;
 }
 .panel .panel-body {
 	display: block;
@@ -37,4 +37,5 @@
 .panel .panel-footer {
 	box-sizing: border-box;
 	padding: 15px 20px;
+	line-height: 22px;
 }
