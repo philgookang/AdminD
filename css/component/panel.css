@@ -8,6 +8,7 @@
 }
 .panel .panel-header {
 	display: block;
+	min-height: 52px;
 }
 .panel .panel-header h1 {
     font-size: 15px;
@@ -16,10 +17,17 @@
 }
 .panel .panel-header .panel-options {
     float: right;
-    margin: -3px 0 -3px 15px;
     padding: 0;
     height: 24px;
     list-style: none;
+}
+.panel .panel-header .panel-options .btn {
+	font-size: 12px;
+	padding: 0px 6px;
+}
+.panel .panel-header .panel-options .input {
+	font-size: 12px;
+	padding: 4px 6px;
 }
 .panel .panel-body {
 	display: block;
