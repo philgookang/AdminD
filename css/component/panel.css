@@ -15,19 +15,26 @@
     font-weight: 600;
 	display: inline-block;
 }
+.panel .panel-tab .panel-options,
 .panel .panel-header .panel-options {
     float: right;
     padding: 0;
     height: 24px;
     list-style: none;
+	font-size: 0px;
 }
 .panel .panel-header .panel-options .btn {
 	font-size: 12px;
 	padding: 0px 6px;
+	vertical-align: top;
+	margin-left: 6px;
 }
+.panel .panel-tab .panel-options .input,
 .panel .panel-header .panel-options .input {
 	font-size: 12px;
 	padding: 4px 6px;
+	vertical-align: top;
+	margin-left: 6px;
 }
 .panel .panel-body {
 	display: block;

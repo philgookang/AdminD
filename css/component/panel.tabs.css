@@ -1,16 +1,18 @@
-.panel {
-	color: rgb(100, 100, 100);
-	background-color: #fff;
-	box-sizing: border-box;
-	border-radius: 6px;
-	font-size: 14px;
-	margin-bottom: 40px;
-}
 .panel .panel-tab {
 	display: block;
     border-bottom: 1px solid #f9f9f9;
     box-sizing: border-box;
     font-size: 0px;
+}
+.panel .panel-tab .panel-options {
+	padding-top: 13px;
+    padding-right: 15px;
+}
+.panel .panel-tab .panel-options .btn {
+	font-size: 12px;
+	padding: 4px 6px;
+	vertical-align: top;
+	margin-left: 6px;
 }
 .panel .panel-tab .tab-item {
 	display: inline-block;
