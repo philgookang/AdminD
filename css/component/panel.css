@@ -54,3 +54,6 @@
 	padding: 15px 20px;
 	line-height: 22px;
 }
+.panel .panel-body {
+	padding: 20px;
+}
