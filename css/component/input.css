@@ -8,7 +8,7 @@
     background-color: #fff;
 }
 .input-date {
-    width: 95px;
+    width: 95px !important;
     text-align: center;
 }
 .input-inline {
