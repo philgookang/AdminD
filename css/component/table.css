@@ -29,6 +29,7 @@
 .table-bordered tbody tr td.img {
 	padding: 0px;
 	width: 140px;
+	line-height: 0px;
 }
 .table-bordered tbody tr td.img img {
 	width: 140px;
