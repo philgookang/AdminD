@@ -35,6 +35,30 @@
 	width: 140px;
 	height: 100%;
 }
+.table-bordered tbody tr td.menu {
+	padding: 0px 10px;
+	font-size: 0px;
+}
+.table-bordered tbody tr td.menu .menu-item {
+	font-size: 12px;
+	text-align: center;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	padding: 3px 0px;
+	box-sizing: border-box;
+	background-color: #fff;
+	cursor: pointer;
+}
+.table-bordered tbody tr td.menu .menu-item:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.table-bordered tbody tr td.menu .menu-item:last-child {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom: 1px solid #dfdfdf;
+}
 
 .table-striped {
 
