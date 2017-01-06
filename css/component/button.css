@@ -16,6 +16,7 @@
 }
 .btn-block {
 	display: block;
+    text-align: center;
 }
 
 .btn-sm {
@@ -107,4 +108,24 @@
 .btn-success[disabled] {
     background-color: #46c37b;
     border-color: #34a263;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
 }
