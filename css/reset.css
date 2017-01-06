@@ -17,3 +17,4 @@ a:link, a:visited, visited, active, hover, focus { color:#000 ; text-decoration:
 .text-bold{font-weight:bold;}
 .hide{display:none;}
 a img{border:0px;}
+input, textarea { font-family: 'Roboto',sans-serif;}
