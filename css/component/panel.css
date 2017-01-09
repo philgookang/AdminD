@@ -5,6 +5,9 @@
 	border-radius: 6px;
 	font-size: 14px;
 	margin-bottom: 40px;
+
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
 .panel .panel-header {
 	display: block;
@@ -42,6 +45,10 @@
 .panel .panel-block {
 	display: block;
 	background-color: #f9f9f9;
+}
+.panel .panel-block:last-child {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 .panel .panel-footer {
 	display: block;

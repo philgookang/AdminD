@@ -14,10 +14,13 @@
 .navigation > ul > li > ul {
 	display: none;
 	position: absolute;
-	top: 41px;
+	top: 45px;
 	left: -21px;
 	font-size: 0px;
-	background-color: #f26d21;
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	background-color: white;
 	min-width: 100%;
 }
 .navigation > ul > li:hover > ul {
@@ -36,7 +39,7 @@
 	box-sizing: border-box;
 	text-align: left;
 	font-size: 14px;
-	color: #fff;
+	color: #515151;
 }
 .navigation > ul > li > ul > li > a {
 	padding: 14px 20px;
