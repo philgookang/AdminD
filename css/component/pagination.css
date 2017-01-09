@@ -1,0 +1,18 @@
+.pagination {
+    list-style: none;
+    font-size: 0px;
+}
+.pagination li {
+    display: inline-block;
+    font-size: 14px;
+}
+.pagination li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.pagination li.active a {
+    font-weight: bold;
+    background-color: rgba(100, 100, 100, 0.2);
+}
