@@ -18,6 +18,7 @@
     margin-bottom: 4px;
     cursor: pointer;
     border: 1px solid;
+    position: relative;
 }
 .list-compile li:last-child {
     margin-bottom: 0px;
@@ -41,4 +42,18 @@
     color: #fff;
     background-color: #d26a5c;
     border-color: #c54736 !important;
+}
+.list-compile-content li {
+    padding: 0px;
+}
+.list-compile-content li img {
+    height: 60px;
+    width: 60px;
+    vertical-align: top;
+}
+.list-compile-content li label {
+    line-height: 60px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 10px;
 }
