@@ -50,6 +50,8 @@
     height: 60px;
     width: 60px;
     vertical-align: top;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .list-compile-content li label {
     line-height: 60px;
