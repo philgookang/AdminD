@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Glyphicons Filetypes';
-    src: url('../fonts/glyphicons-filetypes-regular.eot');
-    src: url('../fonts/glyphicons-filetypes-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/glyphicons-filetypes-regular.woff2') format('woff2'),
-         url('../fonts/glyphicons-filetypes-regular.woff') format('woff'),
-         url('../fonts/glyphicons-filetypes-regular.ttf') format('truetype'),
-         url('../fonts/glyphicons-filetypes-regular.svg#glyphicons_filetypesregular') format('svg')
+    src: url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.eot');
+    src: url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.eot?#iefix') format('embedded-opentype'),
+         url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.woff2') format('woff2'),
+         url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.woff') format('woff'),
+         url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.ttf') format('truetype'),
+         url('//admin_d.cache.mugmox.com/font/glyphicons-filetypes-regular.svg#glyphicons_filetypesregular') format('svg')
 }
 .filetypes {
     position: relative;
