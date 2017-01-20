@@ -20,6 +20,14 @@
     border: 1px solid;
     position: relative;
 }
+.list-compile li .compile-option {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    padding: 4px;
+}
 .list-compile li:last-child {
     margin-bottom: 0px;
 }
