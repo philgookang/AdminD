@@ -67,3 +67,14 @@
     box-sizing: border-box;
     padding: 10px;
 }
+.list-compile-content li label.ellipse {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-align: left;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    line-height: 40px !important;
+}
