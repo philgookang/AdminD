@@ -18,38 +18,61 @@
 		<!-- CSS CSS CSS CSS CSS CSS CSS CSS -->
 
 		<!-- CSS Vendor -->
+		<link href="/css/vendor/alertify.css" rel="stylesheet"/>
+		<link href="/css/vendor/alertify.default.css" rel="stylesheet"/>
+		<link href="/css/vendor/jquery-ui.css" rel="stylesheet"/>
+		<link href="/css/vendor/bootstrap/select2.css" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+		<!-- CSS Font -->
+		<link href="/css/font/glyphicons-filetypes.css" crossorigin="anonymous" rel="stylesheet"/>
+		<link href="/css/font/glyphicons-halflings.css" crossorigin="anonymous" rel="stylesheet"/>
+		<link href="/css/font/glyphicons-social.css" crossorigin="anonymous" rel="stylesheet"/>
+		<link href="/css/font/glyphicons.css" crossorigin="anonymous" rel="stylesheet"/>
 
 		<!-- CSS Boot -->
 		<link href="/css/reset.css" rel="stylesheet"/>
 
 		<!-- CSS Core -->
-		<link href="/css/core/template.css" rel="stylesheet"/>
+		<link href="/css/core/animation.glyphicon.css" rel="stylesheet"/>
 		<link href="/css/core/layout.css" rel="stylesheet"/>
 		<link href="/css/core/navigation.css" rel="stylesheet"/>
+		<link href="/css/core/template.css" rel="stylesheet"/>
 
 		<!-- CSS Component -->
+		<link href="/css/component/button.css" rel="stylesheet"/>
+		<link href="/css/component/input.css" rel="stylesheet"/>
+		<link href="/css/component/input.segmented.css" rel="stylesheet"/>
+		<link href="/css/component/label.css" rel="stylesheet"/>
+		<link href="/css/component/list.compile.css" rel="stylesheet"/>
+		<link href="/css/component/pagination.css" rel="stylesheet"/>
 		<link href="/css/component/panel.css" rel="stylesheet"/>
 		<link href="/css/component/panel.tabs.css" rel="stylesheet"/>
 		<link href="/css/component/table.css" rel="stylesheet"/>
 		<link href="/css/component/table.filter.css" rel="stylesheet"/>
-		<link href="/css/component/button.css" rel="stylesheet"/>
-		<link href="/css/component/input.css" rel="stylesheet"/>
-		<link href="/css/component/label.css" rel="stylesheet"/>
 
 		<!-- CSS Helper -->
 		<link href="/css/helper/align.css" rel="stylesheet"/>
-		<link href="/css/helper/padding.css" rel="stylesheet"/>
 		<link href="/css/helper/float.css" rel="stylesheet"/>
+		<link href="/css/helper/padding.css" rel="stylesheet"/>
 
 
 		<!-- JS JS JS JS JS JS JS JS JS JS JS -->
 
 		<!-- JS Vendor -->
+		<script src="/js/vendor/jquery.js"></script>
+		<script src="/js/vendor/jquery-ui.js"></script>
+		<script src="/js/vendor/jquery.plugin/iframe-transport.js"></script>
+		<script src="/js/vendor/jquery.plugin/fileupload.js"></script>
+		<script src="/js/vendor/bootstrap/select2.js"></script>
+		<script src="/js/vendor/bootstrap/typeahead.js"></script>
+		<script src="/js/vendor/alertify.js"></script>
+
+		<!-- JS Helper -->
+		<script src="/js/helper/format.js"></script>
 
 		<!-- CSS System -->
-
+		<script src="/js/component/MutiFileUploaderComponent.js"></script>
 	</head>
 	<body>
 		<div class="head">
@@ -154,8 +177,144 @@
 							<div class="btn btn-success">This is success</div>
 							<!--/.btn btn-success-->
 
-							<div class="btn btn-primary">This is primary</div>
+							<div class="btn btn-primary">This is primary<span class="glyphicons glyphicons-brightness-reduce glyphicon-spin"></span></div>
 							<!--/.btn btn-primary-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-right">
+
+							<div class="btn btn-sm btn-default">This is default</div>
+							<!--/.btn btn-danger-->
+
+							<div class="btn btn-sm btn-danger">This is danger</div>
+							<!--/.btn btn-danger-->
+
+							<div class="btn btn-sm btn-success">This is success</div>
+							<!--/.btn btn-success-->
+
+							<div class="btn btn-sm btn-primary">This is primary</div>
+							<!--/.btn btn-primary-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-right">
+
+							<div class="btn btn-xs btn-default">This is default<span class="glyphicons glyphicons-brightness-reduce"></span></div>
+							<!--/.btn btn-danger-->
+
+							<div class="btn btn-xs btn-danger">This is danger <span class="glyphicons glyphicons-brightness-reduce"></span></div>
+							<!--/.btn btn-danger-->
+
+							<div class="btn btn-xs btn-success">This is success <span class="glyphicons glyphicons-brightness-reduce"></span></div>
+							<!--/.btn btn-success-->
+
+							<div class="btn btn-xs btn-primary">This is primary <span class="glyphicons glyphicons-brightness-reduce"></span></div>
+							<!--/.btn btn-primary-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-center">
+
+							<div class="segmented segmented-default">
+								<label>
+									<input type="radio" name="hello" value="1"/> <span>First Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello" value="2"/> <span>Second Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello" value="3"/> <span>Third Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello" value="4"/> <span>Fourth Option</span>
+								</label>
+							</div>
+							<!--/.segmented-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-center">
+
+							<div class="segmented segmented-primary">
+								<label>
+									<input type="radio" name="hello_primary" value="1"/> <span>First Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="2"/> <span>Second Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="3"/> <span>Third Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="4"/> <span>Fourth Option</span>
+								</label>
+							</div>
+							<!--/.segmented-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-center">
+
+							<div class="segmented segmented-danger">
+								<label>
+									<input type="radio" name="hello_primary" value="1"/> <span>First Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="2"/> <span>Second Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="3"/> <span>Third Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="4"/> <span>Fourth Option</span>
+								</label>
+							</div>
+							<!--/.segmented-->
+						</div>
+						<!--/.row-->
+
+						<br />
+
+						<div class="row text-center">
+
+							<div class="segmented segmented-success">
+								<label>
+									<input type="radio" name="hello_primary" value="1"/> <span>First Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="2"/> <span>Second Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="3"/> <span>Third Option</span>
+								</label>
+
+								<label>
+									<input type="radio" name="hello_primary" value="4"/> <span>Fourth Option</span>
+								</label>
+							</div>
+							<!--/.segmented-->
 						</div>
 						<!--/.row-->
 					</div>
@@ -171,6 +330,13 @@
 				<div class="panel">
 					<div class="panel-header">
 						<h1>Member Table</h1>
+
+						<div class="panel-options input-inline">
+							<input type="text" class="input" value="" placeholder="시작일"/>
+							<input type="text" class="input" value="" placeholder=" 마감일"/>
+							<div class="btn btn-success">검색</div>
+						</div>
+						<!--/.panel-options-->
 					</div>
 					<!--/.panel-header-->
 
@@ -178,52 +344,69 @@
 						<table class="table table-bordered table-striped table-hover">
 							<thead>
 								<tr>
-									<th>#</th>
+									<th style="width: 100px;">#</th>
 									<th>Name</th>
 									<th>AAA</th>
 									<th>BBB</th>
-									<th>CCC</th>
+									<th style="width: 120px;">CCC</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td>2</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
+									<td>3</td>
+									<td>4</td>
+									<td class="menu">
+										<div class="menu-item">
+											수정하기
+										</div>
+										<!--/.menu-item-->
+
+										<div class="menu-item">
+											삭제하기
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
+									<td>3</td>
+									<td>4</td>
+									<td class="menu">
+										<a href="#" class="menu-item">
+											수정하기
+										</a>
+
+										<a href="" class="menu-item">
+											삭제하기
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
 									<td>3</td>
 									<td>4</td>
 									<td>5</td>
 								</tr>
 								<tr>
 									<td>1</td>
-									<td>2</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
 									<td>3</td>
 									<td>4</td>
 									<td>5</td>
 								</tr>
 								<tr>
 									<td>1</td>
-									<td>2</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
 									<td>3</td>
 									<td>4</td>
 									<td>5</td>
 								</tr>
 								<tr>
 									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
-									<td>5</td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
-									<td>5</td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>2</td>
+									<td class="img" style="height: 140px;"><img src="http://cdn.ggumim.co.kr/cache/furniture/300/201612271601342Cp45L6jNK.jpg"></td>
 									<td>3</td>
 									<td>4</td>
 									<td>5</td>
@@ -234,7 +417,26 @@
 					<!--/.panel-body-->
 
 					<div class="panel-block text-center">
-						 1 2 3 4 5 6 7 8 9
+						<ul class="pagination">
+						    <li class="active"><a href="#">1</a>
+						    </li>
+						    <li><a href="/v2/furniture/brand/?per_page=50" data-ci-pagination-page="2">2</a>
+						    </li>
+						    <li><a href="/v2/furniture/brand/?per_page=100" data-ci-pagination-page="3">3</a>
+						    </li>
+						    <li><a href="/v2/furniture/brand/?per_page=150" data-ci-pagination-page="4">4</a>
+						    </li>
+						    <li>
+						        <a href="/v2/furniture/brand/?per_page=50" data-ci-pagination-page="2" rel="next">
+						            <div class="fa fa-angle-right"></div>
+						        </a>
+						    </li>
+						    <li>
+						        <a href="/v2/furniture/brand/?per_page=2750" data-ci-pagination-page="56">
+						            <div class="fa fa-angle-double-right"></div>
+						        </a>
+						    </li>
+						</ul>
 					</div>
 					<!--/.panel-block-->
 				</div>
@@ -257,18 +459,59 @@
 						</div>
 						<!--/.tab-item-->
 
+						<div class="panel-options input-inline">
+							<input type="text" class="input" value="" placeholder="시작일"/>
+							<input type="text" class="input" value="" placeholder=" 마감일"/>
+							<div class="btn btn-success" onclick="search_click();">검색</div>
+						</div>
+						<!--/.panel-options-->
 					</div>
 					<!--/.panel-tab-->
 
 					<div class="panel-body">
 						<div class="row-col">
 							<div class="col-3">
-								lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad
+
+								<ul class="list-compile list-compile-default list-compile-scroll" style="min-height: 120px;">
+									<li>
+										df sal;dkf;as d'kf;'lsdkf;lk'
+										<div class="compile-option">
+											<span class="glyphicons glyphicons-remove"></span>
+										</div>
+										<!--/.option-btn-->
+									</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+									<li>df sal;dkf;as d'kf;'lsdkf;lk'</li>
+								</ul>
+								<!--/.list-compile-->
 							</div>
 							<!--/.col-3-->
 
 							<div class="col-3">
-								lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad lkdsjflks djlf;kad fsad fsad
+								<ul class="list-compile list-compile-default list-compile-content">
+									<li>
+										<img src="http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg"/>
+										<label class="ellipse" style="width: 80px;">l;skdfjlk;sadjflk;sa jkdl;fjlk;sa dkl;jf</label>
+									</li>
+									<li>
+										<img src="http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg"/>
+										<label>l;skdfjlk;sadjflk;sa jkdl;fjlk;sa dkl;jf</label>
+									</li>
+									<li>
+										<img src="http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg"/>
+										<label>l;skdfjlk;sadjflk;sa jkdl;fjlk;sa dkl;jf</label>
+									</li>
+									<li>
+										<img src="http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg"/>
+										<label>l;skdfjlk;sadjflk;sa jkdl;fjlk;sa dkl;jf</label>
+									</li>
+								</ul>
+								<!--/.list-compile-->
 							</div>
 							<!--/.col-3-->
 
@@ -293,7 +536,14 @@
 							<!--/.col-4-->
 
 							<div class="col-4">
-								jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+								<div class="search-tag-container" style="width: 100%;">
+									<select class="taginput" name="tag[]" multiple style="width: 100%;">
+										<option value="1" selected>USA</option>
+										<option value="2" selected>Korea</option>
+										<option value="3" selected>China</option>
+									</select>
+								</div>
+								<!--/.search-tag-container-->
 							</div>
 							<!--/.col-4-->
 
@@ -318,6 +568,46 @@
 							<!--/.col-2-->
 						</div>
 						<!--/.row-col-->
+
+						<br /><br />
+
+						<div class="row-col">
+							<div class="col-2">
+
+							</div>
+							<!--/.col-2-->
+
+							<div class="col-2">
+								<div class="btn btn-file btn-primary btn-block">
+									<input type="file" name="" value=""/> 업로드
+								</div>
+							</div>
+							<!--/.col-2-->
+						</div>
+						<!--/.row-col-->
+					</div>
+					<!--/.panel-body-->
+				</div>
+				<!--/.panel-->
+
+				<div class="panel">
+					<div class="panel-header">
+						<h1>Glyphicons</h1>
+					</div>
+					<!--/.panel-tab-->
+
+					<div class="panel-body padTopNone">
+						<table class="table table-bordered">
+							<tbody>
+								<tr>
+									<td>
+									</td>
+									<td>
+										<span class="halflings halflings-globe"></span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<!--/.panel-body-->
 				</div>
@@ -334,4 +624,51 @@
 		</div>
 		<!--/.foot-->
 	</body>
+
+	<script>
+		MutiFileUploaderComponent.init("aa");
+
+		var search_click = function() {
+			alertify.alert("This is an alert dialog.", function(){
+				alertify.message('OK');
+			});
+		}
+
+		$(".taginput").select2({
+			ajax: {
+				method		: "POST",
+				url			: "/action/tag/search/",
+				dataType	: 'json',
+				delay		: 250,
+				data		: function (params) {
+					return { q: params.term, page: params.page  };
+				},
+				processResults: function (data, params) {
+					// parse the results into the format expected by Select2
+					// since we are using custom formatting functions we do not need to
+					// alter the remote JSON data, except to indicate that infinite
+					// scrolling can be used
+					params.page = params.page || 1;
+
+					return {
+						results: data.results,
+						pagination: {
+							more: (params.page * 30) < data.total_count
+						}
+					};
+				},
+				cache: true
+			},
+			escapeMarkup			: function(markup) { return markup; }, // let our custom formatter work
+			minimumInputLength		: 1,
+			templateResult			: function(repo) {
+				if (repo.loading) return repo.text;
+				var markup = "<div class='select2-result-repository clearfix'>" + repo.text + "</div>";
+				return markup;
+			},
+			templateSelection		: function(repo) {
+				return repo.text || repo.text;
+			}
+		});
+	</script>
 </html>
