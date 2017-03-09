@@ -27,7 +27,8 @@
 	box-sizing: border-box;
 }
 .table-bordered tbody tr td.img,
-.table-bordered tbody tr td.img-sm {
+.table-bordered tbody tr td.img-sm,
+.table-bordered tbody tr td.img-std {
 	padding: 0px;
 	line-height: 0px;
 }
@@ -37,12 +38,19 @@
 .table-bordered tbody tr td.img-sm {
 	width: 70px;
 }
+.table-bordered tbody tr td.img-std {
+	width: 100px;
+}
 .table-bordered tbody tr td.img img {
 	width: 140px;
 	height: 100%;
 }
 .table-bordered tbody tr td.img-sm img {
 	width: 70px;
+	height: 100%;
+}
+.table-bordered tbody tr td.img-std img {
+	width: 100px;
 	height: 100%;
 }
 .table-bordered tbody tr td.menu {
