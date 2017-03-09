@@ -2,7 +2,7 @@
 
 version=$2
 filename=$1
-abs_location="/var/www/mugmox/admin_d/release"
+abs_location="/var/www/opensource/admin_d/release"
 
 uglifyjs "$abs_location/$filename" --compress --mangle --output "$abs_location/t.$filename"
 

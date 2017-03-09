@@ -1,6 +1,6 @@
 <?php
 
-    $base = '/var/www/mugmox/admin_d/';
+    $base = '/var/www/opensource/admin_d/';
     $version = isset($argv[1]) ? $argv[1] : '0.0.0';
 
     if ( $base == '' ) {
@@ -46,6 +46,8 @@
 
                     'helper/align.css',
                     'helper/float.css',
+                    'helper/decoration.css',
+                    'helper/style.css',
                     'helper/padding.css'
                 );
 
@@ -96,10 +98,10 @@
     $s2 = $version;
 
     $s1 = $deploy_css_filename;
-    shell_exec( 'sh /var/www/mugmox/admin_d/release/minify_css.sh  "' . $s1 . '"  "' . $s2 . '"  ');
+    shell_exec( 'sh /var/www/opensource/admin_d/release/minify_css.sh  "' . $s1 . '"  "' . $s2 . '"  ');
 
     $s1 = $deploy_js_filename;
-    shell_exec( 'sh /var/www/mugmox/admin_d/release/minify_js.sh  "' . $s1 . '"  "' . $s2 . '"  ');
+    shell_exec( 'sh /var/www/opensource/admin_d/release/minify_js.sh  "' . $s1 . '"  "' . $s2 . '"  ');
 
 function write_to_file( $output_filname, $input_filename ) {
     $space = '
