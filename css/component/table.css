@@ -26,13 +26,23 @@
 	padding: 10px 14px;
 	box-sizing: border-box;
 }
-.table-bordered tbody tr td.img {
+.table-bordered tbody tr td.img,
+.table-bordered tbody tr td.img-sm {
 	padding: 0px;
-	width: 140px;
 	line-height: 0px;
+}
+.table-bordered tbody tr td.img {
+	width: 140px;
+}
+.table-bordered tbody tr td.img-sm {
+	width: 70px;
 }
 .table-bordered tbody tr td.img img {
 	width: 140px;
+	height: 100%;
+}
+.table-bordered tbody tr td.img-sm img {
+	width: 70px;
 	height: 100%;
 }
 .table-bordered tbody tr td.menu {
