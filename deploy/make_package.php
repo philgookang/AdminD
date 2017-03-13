@@ -98,10 +98,10 @@
     $s2 = $version;
 
     $s1 = $deploy_css_filename;
-    shell_exec( 'sh /var/www/opensource/admin_d/release/minify_css.sh  "' . $s1 . '"  "' . $s2 . '"  ');
+    shell_exec( 'sh /var/www/opensource/admin_d/deploy/minify_css.sh  "' . $s1 . '"  "' . $s2 . '"  ');
 
     $s1 = $deploy_js_filename;
-    shell_exec( 'sh /var/www/opensource/admin_d/release/minify_js.sh  "' . $s1 . '"  "' . $s2 . '"  ');
+    shell_exec( 'sh /var/www/opensource/admin_d/deploy/minify_js.sh  "' . $s1 . '"  "' . $s2 . '"  ');
 
 function write_to_file( $output_filname, $input_filename ) {
     $space = '
