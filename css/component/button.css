@@ -49,17 +49,17 @@
 }
 
 .btn-primary {
-    color: #fff;
+    color: #fff !important;
     background-color: #5c90d2;
     border-color: #3675c5;
 }
 .btn-primary:hover {
-	color: #fff;
+	color: #fff !important;
 	background-color: #3c7ac9;
 	border-color: #295995;
 }
 .btn-primary:active {
-    color: #fff;
+    color: #fff !important;
     background-color: #2d62a5;
     border-color: #1e416d;
 }
@@ -70,17 +70,17 @@
 
 
 .btn-danger {
-    color: #fff;
+    color: #fff !important;
     background-color: #d26a5c;
     border-color: #c54736;
 }
 .btn-danger:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #c94d3c;
     border-color: #953629;
 }
 .btn-danger:active {
-	color: #fff;
+	color: #fff !important;
 	background-color: #a53c2d;
 	border-color: #6d271e;
 }
@@ -91,17 +91,17 @@
 
 
 .btn-success {
-	color: #fff;
+	color: #fff !important;
 	background-color: #46c37b;
 	border-color: #34a263;
 }
 .btn-success:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #37a967;
     border-color: #257346;
 }
 .btn-success:active {
-	color: #fff;
+	color: #fff !important;
 	background-color: #2a8350;
 	border-color: #194d2f;
 }
