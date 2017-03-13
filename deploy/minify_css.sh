@@ -10,4 +10,10 @@ rm "$abs_location/$filename"
 
 mv "$abs_location/t.$filename" "$abs_location/$filename"
 
+cp "$abs_location/$filename" "$abs_location/tttt.$filename"
+
+rm "$abs_location/latest.css"
+
+mv "$abs_location/tttt.$filename" "$abs_location/latest.css"
+
 echo "finished"
