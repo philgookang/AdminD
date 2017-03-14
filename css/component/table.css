@@ -26,6 +26,9 @@
 	padding: 10px 14px;
 	box-sizing: border-box;
 }
+.table-bordered tbody tr td a {
+	color: inherit;
+}
 .table-bordered tbody tr td.img,
 .table-bordered tbody tr td.img-sm,
 .table-bordered tbody tr td.img-std {
