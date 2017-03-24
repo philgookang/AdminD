@@ -13,6 +13,11 @@
     border: 1px solid #e9e9e9;
     height: 100%;
 }
+.select-nextbox .nextbox-column select {
+    box-sizing: border-box;
+    padding: 4px 5px;
+    font-size: 13px;
+}
 .select-nextbox .nextbox-column:first-child,
 .select-nextbox .nextbox-column:last-child {
     vertical-align: top;
