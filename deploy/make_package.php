@@ -41,6 +41,7 @@
                     'component/pagination.css',
                     'component/panel.css',
                     'component/panel.tabs.css',
+                    'component/select.nextbox.css',
                     'component/table.css',
                     'component/table.filter.css',
 
@@ -62,7 +63,8 @@
 
                     'helper/format.js',
 
-                    'component/MutiFileUploaderComponent.js'
+                    'component/MutiFileUploaderComponent.js',
+                    'component/SelectNextBox.js'
                 );
 
 
