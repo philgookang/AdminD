@@ -8,6 +8,7 @@
 .row-col{display:block; font-size:0px;}
 .row-col .col-3,
 .row-col .col-4,
+.row-col .col-5,
 .row-col .col-2 {
 	display: inline-block;
 	font-size: 14px;
@@ -21,22 +22,30 @@
 .row-col .col-4 {
 	width: 25%;
 }
+.row-col .col-5 {
+	width: 20%;
+}
 .row-col .col-2 {
 	width: 50%;
 }
 .row-col .col-3:first-child,
 .row-col .col-4:nth-child(1),
+.row-col .col-5:nth-child(1),
 .row-col .col-2:nth-child(1) {
 	padding-right: 13px;
 }
 .row-col .col-3:nth-child(2),
 .row-col .col-4:nth-child(2),
-.row-col .col-4:nth-child(3) {
+.row-col .col-4:nth-child(3),
+.row-col .col-5:nth-child(2),
+.row-col .col-5:nth-child(3),
+.row-col .col-5:nth-child(4) {
 	padding-right: 7px;
 	padding-left: 7px;
 }
 .row-col .col-3:last-child,
 .row-col .col-4:nth-child(4),
+.row-col .col-5:nth-child(5),
 .row-col .col-2:nth-child(2) {
 	padding-left: 13px;
 }
