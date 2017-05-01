@@ -1,0 +1,85 @@
+.category-manager {
+    width: 100%;
+}
+.category-manager .category-manager-column {
+    display: inline-block;
+    vertical-align: top;
+}
+.category-manager .category-manager-column-sperator {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    position: relative;
+}
+.category-manager .category-manager-column-sperator span {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    margin-top: -25px;
+}
+.category-manager .category-manager-column .manage-column-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.category-manager .category-manager-column .footer-menu {
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.category-manager .category-manager-column .manage-column-option-list {
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    cursor: pointer;
+    position: relative;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-bg {
+    background-color: #5c90d2;
+    color: #fff;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-value {
+    display: table-cell;
+    font-size: 14px;
+    width: 80%;
+    vertical-align: top;
+    height: 38px;
+    line-height: 38px;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-value input {
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    position: relative;
+    z-index: 3;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-menu {
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 10px;
+    bottom: 0px;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-menu .row-click-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 28%;
+}
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-menu .btn-option-item {
+    font-size: 11px;
+    display: inline-block;
+    width: 20px;
+    height: 36px;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
