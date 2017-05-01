@@ -34,6 +34,7 @@
                     'core/template.css',
 
                     'component/button.css',
+                    'component/category.manager.css',
                     'component/checkbox.css',
                     'component/input.css',
                     'component/input.segmented.css',
