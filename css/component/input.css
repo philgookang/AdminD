@@ -18,3 +18,10 @@
     display: inline-block;
     width: auto;
 }
+
+.input[disabled],
+.input[readonly] {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1;
+}
