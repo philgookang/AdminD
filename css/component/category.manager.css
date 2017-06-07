@@ -83,3 +83,10 @@
     box-sizing: border-box;
     padding-top: 8px;
 }
+.category-manager .category-manager-column .manage-column-option-list .category-option-item-menu .btn-option-data {
+    font-size: 11px;
+    display: inline-block;
+    height: 36px;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
